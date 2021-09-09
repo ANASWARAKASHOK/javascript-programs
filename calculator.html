@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+var num1 = parseFloat(prompt ('Enter the first number '));
+var operator = prompt('Enter operator to perform the calculation ( either +, -, * or / ) ');
+var num2 = parseFloat(prompt ('Enter the second number '));
+var result;
+if (operator == '+')
+{
+  result = num1 + num2;
+}
+else if (operator == '-')
+{
+  result = num1 - num2;
+}
+else if (operator == '*')
+{
+  result = num1 * num2;
+}
+else
+{
+  result = num1 / num2;
+}
+window.alert(" Result is " + result);
+    </script>
+  </body>
+</html>
